@@ -17,7 +17,6 @@ a.newsItem-titleDomain{
 .newsItem{
     align-items: baseline;
     display: flex;
-    background-color: orange;
 }
 
 .newsItem-itemText {
