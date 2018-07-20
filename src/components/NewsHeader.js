@@ -1,10 +1,11 @@
 import React from 'react';
+import logo from '../img/y18.gif';
 
 class NewsHeader extends React.Component {
 
     getLogo() {
         return (
-            <img src="https://news.ycombinator.com/y18.gif" alt="HackerNews Logo"  className="newsHeader-logo"/>
+            <img src={logo} alt="Logo"  className="newsHeader-logo"/>
         )
     }
 
