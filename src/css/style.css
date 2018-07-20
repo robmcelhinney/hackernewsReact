@@ -3,20 +3,41 @@ body{
     font-size: 0.9em;
 }
 
-a.newsItem-titleLink{
-    font-size: 0.9em;
-    text-decoration: none;
-    color: black;
+.newsItem-titleLink {
+    font-size: 10pt;
 }
-a.newsItem-titleDomain{
-    font-size: 0.8em;
+.newsItem-titleLink > a:visited{
+    color: #828282;
+}
+.newsItem-titleLink > a:link{
+    color: black;
     text-decoration: none;
-    color:grey;
+}
+
+.newsItem-titleDomain{
+    font-size: 0.75em;
+    text-decoration: none;
     margin-left: 5px;
 }
+
+.newsItem-titleDomain > a {
+  color: #828282;
+  text-decoration: none;
+}
+
+.newsItem-titleDomain > a:hover {
+  text-decoration: underline;
+}
+
 .newsItem{
     align-items: baseline;
     display: flex;
+    color: #828282;
+    margin-bottom: 3px;
+}
+
+.newsList-newsItems{
+    margin-top: 10px;
 }
 
 .newsItem-itemText {
@@ -38,6 +59,15 @@ a.newsItem-titleDomain{
   font-size: 0.7em;
 }
 
+.newsItem-subtext > a {
+  color: #828282;
+  text-decoration: none;
+}
+
+.newsItem-subtext > a:hover {
+  text-decoration: underline;
+}
+
 .newsHeader-title {
     margin-left: 4px;
     font-weight: bold;
@@ -46,6 +76,7 @@ a.newsItem-titleDomain{
 .newsHeader-textLink {
     text-decoration: none;
     color: black;
+    font-size: 0.9em;
 }
 
 .newsHeader {
@@ -70,6 +101,13 @@ a.newsItem-titleDomain{
   content: ' | ';
 }
 
-newsHeader-login {
+.newsHeader-login {
     margin-right: 5px;
+}
+
+.newsList {
+    background: #f6f6ef;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
 }
