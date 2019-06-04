@@ -1,11 +1,21 @@
-# HackerNews Client developed with ReactJS Framework
-Viewable at [https://robmcelhinney.github.io/hackernews/] (https://robmcelhinney.github.io/hackernews/)
-Just created a client to test my own React skills
+# HackerNews homepage client developed with ReactJS
+Viewable at [https://robmcelhinney.github.io/hackernews/](https://robmcelhinney.github.io/hackernews/)
+Just created a basic client to test my own React skills
 
-## Getting Started
+## Install
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+    $ git clone git@github.com:robmcelhinney/hackernewsReact.git
+    $ cd hackernews
+    $ npm install
+    
+   
+## Start & watch
 
+    $ npm start
+
+## Simple build for production
+
+    $ npm run build
 
 ## Acknowledgments
 
